@@ -1,0 +1,75 @@
+
+.talk_show{
+    width:600px;
+    height:1000px;
+    border:0px solid #666;
+    background:rgb(185, 184, 184);
+    overflow:auto;
+    border-radius: 5px;
+    margin-left:-5px;
+    margin-top:-5px;
+}
+.talk_input{
+    width:600px;
+    margin:15px auto 0;
+}
+.whotalk{
+    width:50px;
+    height:45px;
+    float:left;
+    outline:none;
+    font-size:25px;
+    background-color: rgba(255, 255, 255, 0.788);
+    margin-right:10px;
+    padding:8px;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+.talk_word{
+    width:70%;
+    height:40px;
+    padding:0px;
+    float:left;
+    outline:none;
+    text-indent:28px;
+    font-size:28px;
+}        
+.talk_sub{
+    width:78px;
+    height:45px;
+    float:left;
+    margin-left:10px;
+    font-size:25px;
+    background-color:  rgba(255, 255, 255, 0.788);
+    padding:8px;
+    font-family: monospace;
+    border-radius: 5px;
+}
+.atalk{
+   margin:20px; 
+}
+.atalk span{
+    display:inline-block;
+    background:#0181cc;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+    font-size:30px;
+}
+.btalk{
+    margin:20px;
+    text-align:right;
+}
+.btalk span{
+    display:inline-block;
+    background:#ef8201;
+    border-radius:10px;
+    color:#fff;
+    padding:5px 10px;
+    font-size:30px;
+}
+
+html{
+    background-color:whitesmoke;
+}
